@@ -14,4 +14,3 @@ Neste laboratório, o objetivo foi criar um script de infraestrutura como códig
 - **CPU**: 2 CPUs
 - **Configuração de Rede**: Modo **Bridge**
 
-- Adicionei o Nginx com uma página web de exemplo

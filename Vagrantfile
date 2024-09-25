@@ -13,7 +13,5 @@ Vagrant.configure("2") do |config|
   # MODO BRIDGE
 	config.vm.network "public_network", :bridge => 'wlp2s0'
 
-    config.vm.provision "shell", path: "script.sh"
-    config.vm.synced_folder "site/" , "/var/www/html"
   config.vm.box_version = "1.0.282"
 end
